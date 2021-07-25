@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Membership Form</h1>
+    <p>Wanna join? Become a member by completing the form below.</p>
+    <br>
+    <div class="container">
+  <form method ="POST" id="form">    
+    <div><input type="text" placeholder="First Name" required id="fname"></div>
+       <div><input type="text" placeholder="Surname" required id="sname"></div>
+      <div><select id="age">
+        <option value="age">Select Your Age</option>
+      </select></div>
+      <!-- <div>Age: <input type="number" min="1" max="100"required id="fname"></div> -->
+        <div><select name="level" id="level">
+  <option value="current level">Your Current Level</option>
+  <option value="100 level">100L</option>
+  <option value="200 level">200L</option>
+  <option value="300 level">300L</option>
+    <option value="400 level">400L</option>
+    <option value="500 level">500L</option>
+</select>
+      </div>
+       <div><input type="text" placeholder="Favorite Club"required id="club"></div>
+           <div>
+         <input type ="button" id="add" value="Register"></input>
+      </div>
+          </form>
+</div>
+<div class="table-responsive-sm"></div>
+    <table id="tbl">
+      <tr>
+        <th>First Name</th>
+        <th>Surname</th>
+        <th>Age</th>
+        <th>Your Current Level</th>
+        <th>Favorite Club</th>
+        <th></th>
+        </tr>
+      </table>
+</div>
+  <script src="script.js"></script>
+</body>
+
+<footer>
+This form was handcrafted by Exquisite Designs &copy... All rights reserved 2021.
+</footer>
+</html>
