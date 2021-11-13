@@ -22,8 +22,10 @@ footer {
 }
 ::placeholder,
 select {
-  font-family: "Courgette", cursive;
   color: #cccccc;
+}
+option {
+  background: rgba(0, 0, 0, 0.5);
 }
 #form {
   width: 320px;
